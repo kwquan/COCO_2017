@@ -56,4 +56,4 @@ Performance metrics are as follows:
 
 # Final Words
 This is meant to be a starter-code for newbies to transfer learning. \
-As one can observe, the mAP is decent at best & much more can be improved by increasing no. of epochs or through data augmentation. \
+As one can observe, the mAP is decent at best & much more can be improved by increasing no. of epochs or through data augmentation. 
