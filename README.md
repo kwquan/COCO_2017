@@ -1,6 +1,6 @@
 # YOLOv5 Transfer Learning using COCO 2017 Image Dataset
 In this notebook[coco_2017.ipynb], we shall train YOLOv5 model on coco dataset & use it to predict images in the test set. \
-The coco 2017 dataset contains 118287 images[train], 5000 images[val] & images[test]. \
+The coco 2017 dataset contains 118287 images[train], 5000 images[val] & some images[test]. \
 Note that only the train & val images have annotations. 
 
 # Prerequisites
