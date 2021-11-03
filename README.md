@@ -3,6 +3,9 @@ In this notebook[coco_2017.ipynb], we shall train YOLOv5 model on coco dataset &
 The coco 2017 dataset contains 118287 images[train], 5000 images[val] & images[test]. \
 Note that only the train & val images have annotations. 
 
+# Prerequisites
+Kindly ensure that you have a good GPU & YOLOv5 is installed. 
+
 # Dataset
 Download the datasets from this link: 
 [https://cocodataset.org/#download](url)
@@ -45,6 +48,10 @@ We are primarily interested in the image information & bounding box coordinates.
 The image file_name, width,height & id can be accessed via the 'images' key. \
 The image annotation data[image_id,category_id,bbox] can be accessed via the 'annotations' key. \
 Note that 'image_id' under annotations key can be used to link images using 'id' under images key. 
+
+# Sample yaml File
+Sample yaml file is provided[coco_data.yaml \
+This should provide a good idea of the information the file should contain. \
 
 # Sample Output
 Sample model prediction on test images:
