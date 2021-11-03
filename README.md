@@ -49,3 +49,7 @@ Note that 'image_id' under annotations key can be used to link images using 'id'
 # Sample Output
 Sample model prediction on test images:
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample.png)
+
+# Model Performance[1 epoch]
+Performance metrics are as follows:
+![alt text](https://github.com/kwquan/COCO_2017/blob/main/results.png)
