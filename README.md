@@ -30,8 +30,9 @@ After downloading the images, kindly place them in their respective folders befo
 
 # Create Labels
 For each image, we need to create a txt file that contains the bounding box information[seperated by 1 space]:
-category id, bounding box x coordinate, bounding box y coordinate, bounding box width, bounding box height \
+category id, bounding box x coordinate, bounding box y coordinate, bounding box width, bounding box height 
 
 A sample is provided below: 
+
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample_text.png)
 
