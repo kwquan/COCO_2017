@@ -53,3 +53,7 @@ Sample model prediction on test images:
 # Model Performance[1 epoch]
 Performance metrics are as follows:
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/results.png)
+
+# Final Words
+This is meant to be a starter-code for newbies to transfer learning. \
+As one can observe, the mAP is decent at best & much more can be improved by increasing no. of epochs or through data augmentation. \
