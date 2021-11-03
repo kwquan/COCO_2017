@@ -16,5 +16,5 @@ Next, [for each link]right-click & copy link address:
 Open up command line, cd to desired directory & download using curl & the copied link:
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/data_3.png)
 
-Unzip the files using this:
+Unzip the files using this: \
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/data_4.png)
