@@ -37,4 +37,11 @@ A sample is provided below:
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample_text.png)
 
 Note that all box info values have to be scaled using image height/width. \
-Using the code provided in the notebook, the txt files for each image can be created & stored under their respective folders in 'label'. 
+Using the code provided in the notebook, the txt files for each image can be created & stored under their respective folders in 'labels'. 
+
+# Reading annotation data from json files
+json files can be read using json.load() function. \
+We are primarily interested in the image information & bounding box coordinates. \
+The image file_name, width,height & id can be accessed via the 'images' key. \
+The image annotation data[image_id,category_id,bbox] can be accessed via the 'annotations' key. \
+Note that 'image_id' under annotations key can be used to link images using 'id' under images key. 
