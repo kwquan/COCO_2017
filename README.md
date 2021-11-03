@@ -45,3 +45,7 @@ We are primarily interested in the image information & bounding box coordinates.
 The image file_name, width,height & id can be accessed via the 'images' key. \
 The image annotation data[image_id,category_id,bbox] can be accessed via the 'annotations' key. \
 Note that 'image_id' under annotations key can be used to link images using 'id' under images key. 
+
+# Sample Output
+Sample model prediction on test images:
+![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample.png)
