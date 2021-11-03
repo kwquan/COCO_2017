@@ -5,6 +5,7 @@ Note that only the train & val images have annotations.
 
 # Prerequisites
 Kindly ensure that you have a good GPU & YOLOv5 is installed. 
+Also ensure that all modules & desired YOLOv5 weight are downloaded. 
 
 # Dataset
 Download the datasets from this link: 
