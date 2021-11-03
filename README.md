@@ -36,3 +36,5 @@ A sample is provided below:
 
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample_text.png)
 
+Note that all box info values have to be scaled using image height/width
+
