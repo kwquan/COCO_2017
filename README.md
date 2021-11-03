@@ -51,7 +51,7 @@ Note that 'image_id' under annotations key can be used to link images using 'id'
 
 # Sample yaml File
 Sample yaml file is provided[coco_data.yaml] \
-This should provide a good idea of the information the file should contain. \
+This should provide a good idea of the information the file should contain. 
 
 # Sample Output
 Sample model prediction on test images:
