@@ -1,7 +1,7 @@
 # YOLOv5 Transfer Learning using COCO 2017 Image Dataset
 In this notebook[coco_2017.ipynb], we shall train YOLOv5 model on coco dataset & use it to predict images in the test set. \ 
 The coco 2017 dataset contains 118287 images[train], 5000 images[val] & images[test]. \
-Note that only the train & val images have annotations. \
+Note that only the train & val images have annotations. 
 
 # Dataset
 Download the datasets from this link: 
@@ -27,3 +27,11 @@ In our directory, we need to first create 2 folders[images & labels]. \
 Within each folder, we then create 3 folders[train,val.test]. \
 Since test images do not have labels, we shall leave that out for now. \
 After downloading the images, kindly place them in their respective folders before proceeding to the next step. \
+
+# Create Labels
+For each image, we need to create a txt file that contains the bounding box information[seperated by 1 space]:
+category id, bounding box x coordinate, bounding box y coordinate, bounding box width, bounding box height \
+
+A sample is provided below: 
+![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample_text.png)
+
