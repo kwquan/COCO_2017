@@ -18,3 +18,12 @@ Open up command line, cd to desired directory & download using curl & the copied
 
 Unzip the files using this: \
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/data_4.png)
+
+# File Structure
+To enable YOLOv5 to train on custom data, we need to put the files in the following format:
+![alt text](https://github.com/kwquan/COCO_2017/blob/main/files.png)
+
+In our directory, we need to first create 2 folders[images & labels]. \
+Within each folder, we then create 3 folders[train,val.test]. \
+Since test images do not have labels, we shall leave that out for now. \
+After downloading the images, kindly place them in their respective folders before proceeding to the next step. \
