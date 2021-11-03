@@ -29,7 +29,7 @@ Since test images do not have labels, we shall leave that out for now. \
 After downloading the images, kindly place them in their respective folders before proceeding to the next step. \
 
 # Create Labels
-For each image, we need to create a txt file that contains the bounding box information[seperated by 1 space]:
+For each image, we need to create a txt file that contains the bounding box information[seperated by 1 space]: \
 category id, bounding box x coordinate, bounding box y coordinate, bounding box width, bounding box height 
 
 A sample is provided below: 
