@@ -26,7 +26,7 @@ To enable YOLOv5 to train on custom data, we need to put the files in the follow
 In our directory, we need to first create 2 folders[images & labels]. \
 Within each folder, we then create 3 folders[train,val.test]. \
 Since test images do not have labels, we shall leave that out for now. \
-After downloading the images, kindly place them in their respective folders before proceeding to the next step. \
+After downloading the images, kindly place them in their respective folders before proceeding to the next step. 
 
 # Create Labels
 For each image, we need to create a txt file that contains the bounding box information[seperated by 1 space]: \
@@ -36,5 +36,5 @@ A sample is provided below:
 
 ![alt text](https://github.com/kwquan/COCO_2017/blob/main/sample_text.png)
 
-Note that all box info values have to be scaled using image height/width
-
+Note that all box info values have to be scaled using image height/width. \
+Using the code provided in the notebook, the txt files for each image can be created & stored under their respective folders in 'label'. 
