@@ -50,7 +50,7 @@ The image annotation data[image_id,category_id,bbox] can be accessed via the 'an
 Note that 'image_id' under annotations key can be used to link images using 'id' under images key. 
 
 # Sample yaml File
-Sample yaml file is provided[coco_data.yaml \
+Sample yaml file is provided[coco_data.yaml] \
 This should provide a good idea of the information the file should contain. \
 
 # Sample Output
